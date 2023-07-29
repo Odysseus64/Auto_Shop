@@ -10,7 +10,7 @@ import java.util.List;
 
 @Controller
 @RequiredArgsConstructor
-@RestController
+@RestController("/api/v3")
 public class AutoController {
     private final AutoRepository autoRepository;
     @GetMapping("/api/autos")
